@@ -1,0 +1,18 @@
+---
+title: "About"
+author: "af"
+date: "12/26/2016"
+output: html_document
+runtime: shiny
+---
+
+This app was realized in order to fulfill the Week 4 Peer Graded Assignment for the Coursera Developing Data Product course.
+
+The app use the mtcars dataset to calculate a ranking of cars, starting from those that consumes less fuel. The mtcars dataset is slightly modified in order to consider liters instead of gallons and kilometers instead of miles.
+
+The ranking is customized according to the user's preferences about the car he/she wants to use. For example: the user can select if he/she wants a car with either manual or automatic transmission, number of cylinders, number of gears, etc. The user can select these options and look at the results.
+
+Source code for ui.R and server.R files are available GitHub.
+
+
+
